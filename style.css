@@ -12,6 +12,74 @@ body {
 	background-color: #000;
 	margin: 0 auto;
 }
+
+#header-wrap {
+    width: 1280px;
+    padding: 20px 0;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.logo-menu {
+    width: 200px;
+    float: left;
+}
+
+.logo {
+    height: 55px;
+}
+
+#nav-menu {
+    float: left;
+}
+
+#tool-menu {
+    float: right;
+}
+
+#header-wrap ul {
+    display: table-row;
+}
+
+#header-wrap ul li {
+    width: 100px;
+    height: 35px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+
+#footer-wrap {
+    width: 1280px;
+    padding: 50px 0;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+#footer-wrap ul li {
+    width: 150px;
+    height: 20px;
+    text-align: left;
+    vertical-align: middle;
+    position: relative;
+}
+
+#footer-wrap img {
+    margin-top: 20px;
+}
+
+.footer-nav-menu {
+    float: left;
+}
+
+.footer-logo {
+    width: 250px;
+    float: left;
+}
+
+
+
 div#featured, div#popular_channels{
 	width: 640px;
 	margin: 0 auto;

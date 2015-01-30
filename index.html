@@ -9,10 +9,31 @@
     <link href="style.css" media="all" rel="stylesheet" type="text/css">
   </head>
 
-	  <body>
+	  <body onresize="onResize()">
 
 
+      <div id="header-wrap">
 
+          <div class="logo-menu"><a href="#"><img class="logo" src="images/watchable.png"></a></div>
+
+          <div id="nav-menu">
+              <ul>
+                  <li><a href="#">All Channels</a></li>
+                  <li><a href="#">My Watchlist</a></li>
+              </ul>
+          </div>
+
+          <div id="tool-menu">
+
+              <div id="access-menu">
+                  <ul>
+                      <li><a href="#">Log In</a></li>
+                      <li><a href="#">Sign Up</a></li>
+                  </ul>
+              </div>
+
+          </div>
+      </div>
 
 
 
@@ -376,6 +397,41 @@
 				</section>
 
 			</div>
+
+
+      <div id="footer-wrap">
+
+          <div class="footer-logo"><a href="#"><img class="logo" src="images/watchable.png"></a></div>
+
+          <div class="footer-nav-menu">
+              <ul>
+                  <li><a href="#">HOME</a></li>
+                  <li><a href="#">SIGN UP</a></li>
+                  <li><a href="#">HELP</a></li>
+                  <li><a href="#">CONTACT US</a></li>
+              </ul>
+          </div>
+
+          <div class="footer-nav-menu">
+              <ul>
+                  <li><a href="#">PRIVACY POLICY</a></li>
+                  <li><a href="#">TERMS OF USE</a></li>
+                  <li><a href="#">AD CHOICES</a></li>
+              </ul>
+          </div>
+
+      </div>
+
+      <script>
+          function onResize() {
+              var windowWidth = window.innerWidth;
+              if(windowWidth < 1280) {
+                  document.getElementById("header-wrap").style.width=windowWidth+"px";
+              }else {
+                  document.getElementById("header-wrap").style.width="1280px";
+              }
+          }
+      </script>
 	  </body>
 
 </html>

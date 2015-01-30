@@ -80,18 +80,68 @@ body {
 
 
 
+.container{
+    width:100%;
+    float:left;
+}
+
+.feature{
+   background-color: #000;
+}
+
+.popular{
+    background-color: #212121;
+}
+
+
 div#featured, div#popular_channels{
 	width: 640px;
 	margin: 0 auto;
-	//background-color: lightblue;
-	//padding: 5px;
+    text-align: center;
+    margin-top:40px;
+    /*padding: 5px; */
+
 }
 
+.imgwrapper{
+    position: relative;
+    margin-bottom:15px;
+}
+
+.imgwrapper .icon{
+    position: absolute;
+    bottom: 15px;
+    right:15px;
+    z-index: 10;
+}
 
 h1{
 	color:whitesmoke;
+    font-size:15px;
+    text-align: center;
+}
+.list_wrapper h1{
+    text-align: left;
+    font-size:15px;
+    font-weight: normal;
+}
+article h1{
+    text-align:left;
 }
 
+article h1 a{
+    font-size:14px;
+    font-weight:normal;
+}
+
+.redbar{
+    width:70px;
+    height:2px;
+    background-color: red;
+    margin:0 auto;
+    margin-bottom:40px;
+
+}
 a{
 	text-decoration: none;
 	color:whitesmoke;
@@ -100,18 +150,18 @@ a{
 
 ul{
 	list-style: none;
-	//background-color:darkgreen;
+	/*background-color:darkgreen; */
 	
 	overflow: hidden;
-	margin: 0px;
+	margin: 0 auto;
 	padding: 0px;
 }
 
 
-ul div.list_wrapper{
-	margin-left: 10px;
-	margin-right: 10px;
-}
+/*ul div.list_wrapper{*/
+	/*margin-left: 10px;*/
+	/*margin-right: 10px;*/
+/*}*/
 
 	ul article .logo{
 
@@ -125,18 +175,24 @@ ul div.list_wrapper{
 
 	ul article .subtitle{
 		margin: 0;
+        margin-top:10px;
 		padding:0;
-		color:whitesmoke;
+		color:#777777;
 		font-size: 0.7em;
+        text-align: left;
 	}
+    ul article .subtitle span{
+        color:#cd0a0a;
+    }
 
-
-
+.clearfix{
+    margin-top: 40px;
+}
 .cleafix:before{
 		content: "";
 		display: table;
 		clear:both;
-	};
+	}
 .clearfix:after { 
    content: "."; 
    visibility: hidden; 
@@ -151,9 +207,10 @@ featured list item style
 
 	ul li.featured_list{
 		width: 300px;
-		height: 170px;
+		height: 249px;
 		float:left;
 		margin-right: 20px;
+        margin-bottom:40px;
 		//background-color: lightcoral;
 	}
 
@@ -165,13 +222,28 @@ featured list item style
 /*************** 
 popular channels
 ***************/
+    .list_wrapper ul{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .list_wrapper ul li{
+        display: inline-block;
+        min-height:245px;
+        text-align: center
+    }
 
+    .list_wrapper ul li div{
+        float:left;
+        text-align: center;
+    }
 	ul li.popular_list{
 		width: 140px;
-		height: 180px;
+		height: 205px;
 		float: left;
 		margin-right: 20px;
-		//background-color: lightcoral;
+        margin-bottom:40px;
+        display:inline;
+		/*background-color: lightcoral;*/
 	}
 
 	ul li.popular_list:nth-child(4n){
@@ -216,6 +288,7 @@ media queries
 		div#featured, div#popular_channels{
 			width: 1280px;
 		}
+        ul{ text-align: center;}
 		ul li.featured_list:nth-child(2n){
 			margin-right: 20px;
 		}

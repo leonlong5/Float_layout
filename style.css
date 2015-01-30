@@ -17,7 +17,7 @@ body {
     width: 1280px;
     padding: 20px 0;
     margin: 0 auto;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 
 .logo-menu {
@@ -103,6 +103,11 @@ div#featured, div#popular_channels{
 
 }
 
+div#featured{
+    margin-top:20px;
+    /*padding: 5px; */
+}
+
 .imgwrapper{
     position: relative;
     margin-bottom:15px;
@@ -134,6 +139,21 @@ article h1 a{
     font-weight:normal;
 }
 
+.footer li{
+    display:inline;
+    height:200px;
+}
+
+.inner_footer{
+    height:100px;
+    display: table-row;
+}
+.inner_footer li{
+    display: table-row;
+    text-align: left;
+    height:20px;
+    font-size:13px;
+}
 .redbar{
     width:70px;
     height:2px;

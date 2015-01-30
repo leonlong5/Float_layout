@@ -148,9 +148,17 @@ popular channels
 ***************/
     .list_wrapper ul{
         text-align: center;
+        margin: 0 auto;
     }
     .list_wrapper ul li{
-        display:inline;
+        display: inline-block;
+        min-height:245px;
+        text-align: center
+    }
+
+    .list_wrapper ul li div{
+        float:left;
+        text-align: center;
     }
 	ul li.popular_list{
 		width: 140px;

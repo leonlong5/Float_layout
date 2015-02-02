@@ -13,12 +13,6 @@ body {
 	margin: 0 auto;
 }
 
-#header-wrap {
-    width: 1280px;
-    padding: 20px 0;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
 
 .logo-menu {
     width: 200px;
@@ -27,57 +21,53 @@ body {
 
 .logo {
     height: 55px;
+    vertical-align:middle;
+}
+.header li{
+    width:300px;
+    height:70px;
+    float:left;
 }
 
-#nav-menu {
-    float: left;
+.header .img-logo{
+    width:180px;
 }
 
-#tool-menu {
-    float: right;
+.footer .img-logo{
+    width:250px;
 }
 
-#header-wrap ul {
-    display: table-row;
+.header .search-bar{
+    width:370px;
+}
+.header .blank-bar{
+    width:180px;
+}
+.header .tool-menu{
+    width:230px;
 }
 
-#header-wrap ul li {
-    width: 100px;
-    height: 35px;
-    display: table-cell;
-    text-align: center;
+
+.box-bg{
+    background-color: #000;
+}
+.inner_header li{
+    display: block;
+    width:130px;
+    height:70px;
+    line-height: 70px;
+    float:left;
+    font-size:17px;
     vertical-align: middle;
-    position: relative;
 }
 
-#footer-wrap {
-    width: 1280px;
-    padding: 50px 0;
-    margin: 0 auto;
-    margin-bottom: 80px;
+.header .tool-menu .inner_header li{
+    width:115px;
 }
 
-#footer-wrap ul li {
-    width: 150px;
-    height: 20px;
-    text-align: left;
+.inner_header li img{
     vertical-align: middle;
-    position: relative;
 }
-
-#footer-wrap img {
-    margin-top: 20px;
-}
-
-.footer-nav-menu {
-    float: left;
-}
-
-.footer-logo {
-    width: 250px;
-    float: left;
-}
-
 
 
 .container{
@@ -86,7 +76,7 @@ body {
 }
 
 .feature{
-   background-color: #000;
+   background-color: #1c1c1c;
 }
 
 .popular{
@@ -96,16 +86,21 @@ body {
 
 div#featured, div#popular_channels{
 	width: 640px;
-	margin: 0 auto;
     text-align: center;
-    margin-top:40px;
-    /*padding: 5px; */
-
 }
 
-div#featured{
+.popular_channels{
+    margin: 0 auto;
+    margin-top:40px;
+}
+
+.featured{
     margin-top:20px;
-    /*padding: 5px; */
+    margin: 0 auto;
+}
+
+.margin_top10{
+    margin-top:15px;
 }
 
 .imgwrapper{
@@ -130,18 +125,47 @@ h1{
     font-size:15px;
     font-weight: normal;
 }
+.footer-container{
+
+}
+.footer-container h1{
+    text-align: left;
+    font-size: 12px;
+    font-weight: normal;
+    color: #777777;
+    margin-left: 250px;
+    width:390px;
+}
 article h1{
     text-align:left;
 }
 
+.inner_header li input{
+    width:350px;
+    border: none;
+    padding:4px;
+    font-size:15px;
+
+    height:30px;
+    background-color: #1c1c1c;
+    border-bottom:1px solid #424242;
+}
+
+.search{
+    color: #424242;
+}
 article h1 a{
     font-size:14px;
     font-weight:normal;
 }
 
 .footer li{
-    display:inline;
-    height:200px;
+    display:block;
+    height:110px;
+    width:150px;
+    float:left;
+    font-size:15px;
+    font-weight: bold;
 }
 
 .inner_footer{
@@ -151,8 +175,8 @@ article h1 a{
 .inner_footer li{
     display: table-row;
     text-align: left;
-    height:20px;
-    font-size:13px;
+    height:25px;
+    font-size:14px;
 }
 .redbar{
     width:70px;

@@ -8,13 +8,15 @@
     <ignored path="Float_layout.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="70604205-1d46-4366-a1d5-5f3c85227fb1" time="1422580580821" ignored="false" />
-    <file path="/style.css" changelist="70604205-1d46-4366-a1d5-5f3c85227fb1" time="1422655897260" ignored="false" />
-    <file path="/index.html" changelist="70604205-1d46-4366-a1d5-5f3c85227fb1" time="1422655515795" ignored="false" />
+    <file path="/style.css" changelist="70604205-1d46-4366-a1d5-5f3c85227fb1" time="1422681573362" ignored="false" />
+    <file path="/index.html" changelist="70604205-1d46-4366-a1d5-5f3c85227fb1" time="1422680915311" ignored="false" />
     <file path="$PROJECT_DIR$/../GoldenGate/app/controllers/api/videos_controller.rb" changelist="70604205-1d46-4366-a1d5-5f3c85227fb1" time="1422644650733" ignored="false" />
     <file path="/videos_controller.rb" changelist="70604205-1d46-4366-a1d5-5f3c85227fb1" time="1422644028046" ignored="false" />
     <file path="$PROJECT_DIR$/../GoldenGate/app/assets/javascripts/backbone/views/common/video_wrapper.js" changelist="70604205-1d46-4366-a1d5-5f3c85227fb1" time="1422644853342" ignored="false" />
     <file path="/video_wrapper.js" changelist="70604205-1d46-4366-a1d5-5f3c85227fb1" time="1422644838391" ignored="false" />
     <file path="$PROJECT_DIR$/../GoldenGate/log/development.log" changelist="70604205-1d46-4366-a1d5-5f3c85227fb1" time="1422645000048" ignored="false" />
+    <file path="$PROJECT_DIR$/../GoldenGate/app/assets/javascripts/player.js" changelist="70604205-1d46-4366-a1d5-5f3c85227fb1" time="1422657022272" ignored="false" />
+    <file path="$PROJECT_DIR$/../GoldenGate/config/initializers/version.rb" changelist="70604205-1d46-4366-a1d5-5f3c85227fb1" time="1422855916604" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="154" column="20" selection-start="2004" selection-end="2004" vertical-scroll-proportion="-2.667529">
+            <state line="154" column="19" selection-start="2008" selection-end="2008" vertical-scroll-proportion="0.4954722">
               <folding />
             </state>
           </provider>
@@ -46,7 +48,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="516" column="26" selection-start="32427" selection-end="32427" vertical-scroll-proportion="-24.875">
+            <state line="37" column="68" selection-start="1652" selection-end="1652" vertical-scroll-proportion="-23.125">
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -238,7 +240,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="516" column="26" selection-start="32427" selection-end="32427" vertical-scroll-proportion="-24.875">
+        <state line="37" column="68" selection-start="1652" selection-end="1652" vertical-scroll-proportion="-23.125">
           <folding>
             <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -247,7 +249,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="20" selection-start="2004" selection-end="2004" vertical-scroll-proportion="-2.667529">
+        <state line="154" column="19" selection-start="2008" selection-end="2008" vertical-scroll-proportion="0.4954722">
           <folding />
         </state>
       </provider>

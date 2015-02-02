@@ -33,23 +33,36 @@ body {
     width:180px;
 }
 
+
+.header_container_left{
+    float:left;
+}
+
+.header_container_right{
+    float:right;
+    margin-right:20px;
+}
+
 .footer .img-logo{
     width:250px;
 }
 
 .header .search-bar{
-    width:370px;
+    width:280px;
 }
 .header .blank-bar{
-    width:180px;
+    width:320px;
 }
 .header .tool-menu{
-    width:230px;
+    width:180px;
 }
 
 
 .box-bg{
     background-color: #000;
+}
+.search-bar .inner_header{
+    background: url(images/search_bttn.gif) no-repeat left center;
 }
 .inner_header li{
     display: block;
@@ -62,7 +75,7 @@ body {
 }
 
 .header .tool-menu .inner_header li{
-    width:115px;
+    width:90px;
 }
 
 .inner_header li img{
@@ -134,18 +147,18 @@ h1{
     font-weight: normal;
     color: #777777;
     margin-left: 250px;
-    width:390px;
+    width:500px;
 }
 article h1{
     text-align:left;
 }
 
 .inner_header li input{
-    width:350px;
+    width:290px;
     border: none;
     padding:4px;
     font-size:15px;
-
+    margin-left:60px;
     height:30px;
     background-color: #1c1c1c;
     border-bottom:1px solid #424242;

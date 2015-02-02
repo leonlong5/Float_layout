@@ -4,12 +4,13 @@
     <list default="true" id="70604205-1d46-4366-a1d5-5f3c85227fb1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Float_layout.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="70604205-1d46-4366-a1d5-5f3c85227fb1" time="1422580580821" ignored="false" />
-    <file path="/style.css" changelist="70604205-1d46-4366-a1d5-5f3c85227fb1" time="1422681573362" ignored="false" />
-    <file path="/index.html" changelist="70604205-1d46-4366-a1d5-5f3c85227fb1" time="1422680915311" ignored="false" />
+    <file path="/style.css" changelist="70604205-1d46-4366-a1d5-5f3c85227fb1" time="1422910248487" ignored="false" />
+    <file path="/index.html" changelist="70604205-1d46-4366-a1d5-5f3c85227fb1" time="1422910100183" ignored="false" />
     <file path="$PROJECT_DIR$/../GoldenGate/app/controllers/api/videos_controller.rb" changelist="70604205-1d46-4366-a1d5-5f3c85227fb1" time="1422644650733" ignored="false" />
     <file path="/videos_controller.rb" changelist="70604205-1d46-4366-a1d5-5f3c85227fb1" time="1422644028046" ignored="false" />
     <file path="$PROJECT_DIR$/../GoldenGate/app/assets/javascripts/backbone/views/common/video_wrapper.js" changelist="70604205-1d46-4366-a1d5-5f3c85227fb1" time="1422644853342" ignored="false" />
@@ -39,7 +40,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="154" column="19" selection-start="2008" selection-end="2008" vertical-scroll-proportion="0.4954722">
+            <state line="30" column="41" selection-start="386" selection-end="386" vertical-scroll-proportion="0.21345407">
               <folding />
             </state>
           </provider>
@@ -48,7 +49,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="68" selection-start="1652" selection-end="1652" vertical-scroll-proportion="-23.125">
+            <state line="30" column="103" selection-start="1315" selection-end="1315" vertical-scroll-proportion="-13.625">
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -117,6 +118,14 @@
               <option name="myItemId" value="Float_layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; RVM: ruby-1.9.3-p547 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -125,6 +134,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Float_layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Float_layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Float_layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -240,7 +263,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="68" selection-start="1652" selection-end="1652" vertical-scroll-proportion="-23.125">
+        <state line="30" column="103" selection-start="1315" selection-end="1315" vertical-scroll-proportion="-13.625">
           <folding>
             <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -249,7 +272,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="19" selection-start="2008" selection-end="2008" vertical-scroll-proportion="0.4954722">
+        <state line="30" column="41" selection-start="386" selection-end="386" vertical-scroll-proportion="0.21345407">
           <folding />
         </state>
       </provider>

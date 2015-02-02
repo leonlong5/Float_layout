@@ -171,8 +171,9 @@ a{
 ul{
 	list-style: none;
 	/*background-color:darkgreen; */
-	
-	overflow: hidden;
+	width: 100%;
+    white-space: nowrap;
+    overflow: auto; 
 	margin: 0 auto;
 	padding: 0px;
 }
@@ -228,7 +229,7 @@ featured list item style
 	ul li.featured_list{
 		width: 300px;
 		height: 249px;
-		float:left;
+		display: inline-block;
 		margin-right: 20px;
         margin-bottom:40px;
 		//background-color: lightcoral;
@@ -275,12 +276,16 @@ media queries
 ***************/
 
 
-	@media (min-width: 640px) and (max-width: 960px){
+	@media (min-width: 640px) {
 		div#featured, div#popular_channels{
 			width: 640px;
 		}
-
-
+		ul{
+			overflow: hidden;
+		}
+		ul li.featured_list{
+			float:left;
+		}
 	}
 
 	@media (min-width: 960px) and (max-width: 1280px) {

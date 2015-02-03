@@ -40,7 +40,6 @@ body {
 
 .header_container_right{
     float:right;
-    margin-right:20px;
 }
 
 .footer .img-logo{
@@ -62,7 +61,7 @@ body {
     background-color: #000;
 }
 .search-bar .inner_header{
-    background: url(images/search_bttn.gif) no-repeat left center;
+    background: url(images/search_bttn.png) no-repeat left center;
 }
 .inner_header li{
     display: block;
@@ -154,11 +153,11 @@ article h1{
 }
 
 .inner_header li input{
-    width:290px;
+    width:250px;
     border: none;
     padding:4px;
     font-size:15px;
-    margin-left:60px;
+    margin-left:23px;
     height:30px;
     background-color: #1c1c1c;
     border-bottom:1px solid #424242;
@@ -312,7 +311,7 @@ media queries
 ***************/
 
 
-	@media (min-width: 640px) and (max-width: 960px){
+	@media (min-width: 640px) and (max-width: 940px){
 		div#featured, div#popular_channels{
 			width: 640px;
 		}
@@ -320,9 +319,9 @@ media queries
 
 	}
 
-	@media (min-width: 960px) and (max-width: 1280px) {
+	@media (min-width: 940px) and (max-width: 1260px) {
 		div#featured, div#popular_channels{
-			width: 960px;
+			width: 940px;
 		}
 		ul li.featured_list:nth-child(2n){
 			margin-right: 20px;
@@ -341,9 +340,9 @@ media queries
 
 
 
-	@media (min-width: 1280px){
+	@media (min-width: 1260px){
 		div#featured, div#popular_channels{
-			width: 1280px;
+			width: 1260px;
 		}
         ul{ text-align: center;}
 		ul li.featured_list:nth-child(2n){

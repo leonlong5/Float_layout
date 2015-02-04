@@ -1,47 +1,58 @@
 <!DOCTYPE html>
 <!-- saved from url=(0029)http://portal.demo.xidio.com/ -->
-<html class="featured_list"><!--<![endif]-->
+<html><!--<![endif]-->
   <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Watchable</title>
     <link rel="shortcut icon" href="http://portal.demo.xidio.com/favicon.png"> 
     <link rel="apple-itouch-icon" href="http://portal.demo.xidio.com/favicon.png">
-
+    <link href="normalize.css" media="all" rel="stylesheet" type="text/css">
     <link href="style.css" media="all" rel="stylesheet" type="text/css">
   </head>
   <body>
 
-      <div id="header-wrap">
-
-          <div class="logo-menu"><a href="#"><img class="logo" src="images/watchable.png"></a></div>
-
-          <div id="nav-menu">
-              <ul>
-                  <li><a href="#">All Channels</a></li>
-                  <li><a href="#">My Watchlist</a></li>
+  <div class="container feature">
+      <div class="section_container margin_top10">
+          <div class="header_container_left">
+              <ul class="header">
+                  <li class="img-logo">
+                      <ul class="inner_header">
+                          <li><a href="#"><img class="logo" src="images/watchable.png"></a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <ul class="inner_header">
+                          <li><a href="#">All Channels</a></li>
+                          <li><a href="#">My Watchlist</a></li>
+                      </ul>
+                  </li>
               </ul>
           </div>
-
-          <div id="tool-menu">
-
-              <div id="access-menu">
-                  <ul>
-                      <li><a href="#">Log In</a></li>
-                      <li><a href="#">Sign Up</a></li>
-                  </ul>
-              </div>
-
+          <div class="header_container_right">
+              <ul class="header">
+                  <li class="search-bar">
+                      <ul class="inner_header">
+                          <li><input type="" placeholder="search" class="search"></li>
+                      </ul>
+                  </li>
+                  <li class="tool-menu">
+                      <ul class="inner_header box-bg">
+                          <li><a href="#">Log In</a></li>
+                          <li><a href="#">Sign Up</a></li>
+                      </ul>
+                  </li>
+              </ul>
           </div>
       </div>
-
+  </div>
         <!------**********  FEATURED   *****************-->
     <div class="container feature">
-         <div id="featured">
+         <div id="featured" class="section_container">
             <section>
                 <header>
                     <h1>FEATURED VIDEOS</h1>
                 </header>
                 <div class="redbar"></div>
-                <ul class="clearfix">
+                <ul class="clearfix main_ul">
                     <li class="featured_list">
                         <article>
                            <a class="logo" href="http://portal.demo.xidio.com/videos/8109-how-to-have-fun-in-a-dorm-room-misterepicmann">
@@ -154,24 +165,20 @@
                 </ul>
             </section>
          </div>
-        <div style="clear:both;"></div>
     </div>
     <div class="container popular">
         <!------*********************************
          POPULAR CHANELS   *****************
-    	*****************************************-->
+        *****************************************-->
 
-        <div id="popular_channels">
+        <div id="popular_channels" class="section_container">
             <section>
                 <header>
                     <h1>POPULAR CHANNELS</h1>
                 </header>
                 <div class="redbar"></div>
                 <div class="list_wrapper">
-                    <ul>
-                        <li>
-                            <div>
-                                <ul>
+                                <ul id="popular_center" class="main_ul clearfix">
                                     <li class="popular_list">
                                         <article>
                                             <a class="logo" href="http://portal.demo.xidio.com/channels/10308-break">
@@ -245,9 +252,6 @@
                                         </article>
                                     </li>
                                 </ul>
-                            </div>
-                        </li>
-                    </ul>
                 </div>
             </section>
         </div>
@@ -258,7 +262,7 @@
             <!------*********************************
              POPULAR CHANELS   *****************
             *****************************************-->
-            <div id="popular_channels">
+            <div id="channels_genre" class="section_container">
                 <section>
                     <header>
                         <h1>CHANNELS BY GENRE</h1>
@@ -266,7 +270,7 @@
                     <div class="redbar"></div>
                     <div class="list_wrapper">
                         <h1>Animation</h1>
-                        <ul>
+                        <ul class="main_ul clearfix">
                             <li class="popular_list">
                                 <article>
                                     <a class="logo" href="http://portal.demo.xidio.com/channels/10308-break">
@@ -318,7 +322,7 @@
 
                         </ul>
                         <h1>Fashion & Style</h1>
-                        <ul>
+                        <ul class="main_ul clearfix">
                             <li class="popular_list">
                                 <article>
                                     <a class="logo" href="http://portal.demo.xidio.com/channels/10308-break">
@@ -418,7 +422,7 @@
                             </li>
                         </ul>
                         <h1>Funny</h1>
-                        <ul>
+                        <ul class="main_ul clearfix">
                             <li class="popular_list">
                                 <article>
                                     <a class="logo" href="http://portal.demo.xidio.com/channels/10182-istyle">
@@ -498,28 +502,36 @@
         </div>
 
       <div class="container feature">
-          <div id="popular_channels">
-          <div class="footer-logo"><a href="#"><img class="logo" src="images/watchable.png"></a></div>
-          <div>
-          <ul class="footer">
-              <li>
-                  <ul class="inner_footer">
-                      <li ><a href="#">HOME</a></li>
-                      <li ><a href="#">SIGN UP</a></li>
-                      <li ><a href="#">HELP</a></li>
-                      <li ><a href="#">CONTACT US</a></li>
+          <div id="" class="section_container">
+              <div class="footer-container">
+                  <ul class="footer">
+                      <li class="img-logo">
+                          <ul class="inner_header">
+                              <li><a href="#"><img class="logo" src="images/watchable.png"></a></li>
+                          </ul>
+                      </li>
+                      <li>
+                          <ul class="inner_footer">
+                              <li ><a href="#">HOME</a></li>
+                              <li ><a href="#">SIGN UP</a></li>
+                              <li ><a href="#">HELP</a></li>
+                              <li ><a href="#">CONTACT US</a></li>
+                          </ul>
+                      </li>
+                      <li>
+                          <ul class="inner_footer">
+                              <li ><a href="#">PRIVACY POLICY</a></li>
+                              <li ><a href="#">TERMS OF USE</a></li>
+                              <li ><a href="#">AD CHOICES</a></li>
+                          </ul>
+                      </li>
                   </ul>
-              </li>
-              <li>
-                  <ul class="inner_footer">
-                      <li ><a href="#">PRIVACY POLICY</a></li>
-                      <li ><a href="#">TERMS OF USE</a></li>
-                      <li ><a href="#">AD CHOICES</a></li>
-                  </ul>
-              </li>
-          </ul>
-        </div>
-      </div>
+                  <h1>
+                      &copy;2014 Watchable, Inc. all rights reserved. All images, videos, and content © their respective owners. Made with love from Sunnyvale
+                  </h1>
+              </div>
+
+          </div>
       </div>
   </body>
 
